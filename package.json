@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/dist/index.js",
-    "heroku-prebuild":  "npm install",
-    "build": "typescript -p .",
+    "heroku-prebuild": "npm install",
+    "build": "tsc -p .",
     "dev": "ts-node src/index.ts"
   },
   "keywords": [],
@@ -38,6 +38,7 @@
     "@types/passport-google-oauth20": "^2.0.11",
     "@types/passport-local": "^1.0.34",
     "nodemon": "^2.0.20",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4"
   }
 }
