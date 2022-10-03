@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node build/dist/index.js",
     "heroku-prebuild":  "npm install",
-    "build": "tsc -p .",
+    "build": "typescript -p .",
     "dev": "ts-node src/index.ts"
   },
   "keywords": [],
