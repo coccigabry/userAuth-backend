@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/dist/index.js",
-    "heroku-prebuild": "npm install",
     "build": "tsc -p .",
     "dev": "ts-node src/index.ts"
   },
